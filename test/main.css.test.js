@@ -4,7 +4,7 @@ const chai = require("chai");
 const CSSOM = require("cssom");
 chai.use(require("chai-dom"));
 const { expect } = chai;
-
+ 
 const cssFile = fs.readFileSync(
   path.resolve(__dirname, "../main.css"),
   "utf-8"
